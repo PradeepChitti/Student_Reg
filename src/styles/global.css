@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: rgba(140, 213, 229, 0.231);
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(72, 0, 255, 0.884);
+    padding: 1rem;
+    border-radius: 0.8rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.student-form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid  rgba(72, 0, 255, 0.884);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: auto;
+    min-width: 350px;
+}
+
+.register {
+    background-color: green;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+}
+.register:hover {
+    background-color: white;
+    color: rgba(72, 0, 255, 0.884);
+    margin: 10px;
+    padding: 10px;
+    border:1px solid rgba(72, 0, 255, 0.884);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.student-form>label {
+    padding: 10px 0;
+}
+
+.error-msg {
+    color: red;
+    padding: 5px 0;
+}
