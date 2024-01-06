@@ -46,6 +46,7 @@ body{
     width: 150px;
     align-self: center;
 }
+
 .register:hover {
     background-color: white;
     color: rgba(72, 0, 255, 0.884);
